@@ -62,8 +62,8 @@ Para consolidar os operadores lógicos abordados em aula, o código e as saídas
 ==================================================
       INICIALIZAÇÃO DOS CONJUNTOS
 ==================================================
-Digite os elementos do conjunto A, separados por espaço (ou deixe vazio): 1 2 3
-Digite os elementos do conjunto B, separados por espaço (ou deixe vazio): 2 3 4
+Digite os elementos do conjunto A, separados por espaço (ou deixe vazio): 1 2 2 3 3
+Digite os elementos do conjunto B, separados por espaço (ou deixe vazio): 2 3 4 4
 
 ==================================================
        MENU - TEORIA DOS CONJUNTOS
@@ -145,6 +145,30 @@ Interseção: Custom=[1, 2, 3] | Nativo=[1, 2, 3] -> [APROVADO]
 Escolha uma operação: 3
 Diferença (A - B): Custom=[] | Nativo=[] -> [APROVADO]
 Diferença (B - A): Custom=[] | Nativo=[] -> [APROVADO]
+
+==================================================
+Escolha uma operação: 8
+
+Redefinindo os conjuntos...
+Digite os elementos do conjunto A, separados por espaço (ou deixe vazio): 1 2
+Digite os elementos do conjunto B, separados por espaço (ou deixe vazio): 3 4
+
+==================================================
+       MENU - TEORIA DOS CONJUNTOS
+==================================================
+Conjunto A: [1, 2]
+Conjunto B: [3, 4]
+Universo U: [1, 2, 3, 4]
+--------------------------------------------------
+Escolha uma operação: 1
+União: Custom=[1, 2, 3, 4] | Nativo=[1, 2, 3, 4] -> [APROVADO]
+
+Escolha uma operação: 2
+Interseção: Custom=[] | Nativo=[] -> [APROVADO]
+
+Escolha uma operação: 3
+Diferença (A - B): Custom=[1, 2] | Nativo=[1, 2] -> [APROVADO]
+Diferença (B - A): Custom=[3, 4] | Nativo=[3, 4] -> [APROVADO]
 
 Escolha uma operação: 0
 ```
