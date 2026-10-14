@@ -131,7 +131,7 @@ def remover_usuario(usuarios):
 def menu_principal(usuarios):
     while True:
         print("\n" + "=" * 65)
-        print("          PAINEL DE CONTROLO DO APLICATIVO FICTÍCIO")
+        print("          PAINEL DE CONTROLE DO APLICATIVO")
         print("=" * 65)
         print("1. Consultar se um utilizador pode executar uma ação (ex.: A Ana pode editar?)")
         print("2. Consultar quem pode executar uma ação (ex.: Quem pode editar?)")
